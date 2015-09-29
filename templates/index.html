@@ -1,0 +1,25 @@
+{% if not artists_list %}
+<form method="post" action=".">
+    <table>
+
+    <tr>
+        <th>{{ form.min_age.label }}</th>
+        <td>{{ form.min_age }}</td>
+    </tr>
+    
+        <tr>
+        <th>{{ form.max_age.label }}</th>
+        <td>{{ form.max_age }}</td>
+    </tr>
+    
+    {{ form.csrf_token }}
+
+    </table>
+    <button type='submit'>Submit</button>
+</form>
+{% endif %}
+
+
+{% for entry in artists_list %}
+    {{ entry.uuid }} - {{ entry.age }}<br>
+{% endfor %}
