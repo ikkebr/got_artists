@@ -7,21 +7,25 @@ Implement a simple search service (complete with suitable test coverage) using a
 
 Requirements
 --
+
 MongoDB
 Python
+
 
 Setup & Installation
 ---
 
-
 Clone the repository into a virtualenv and execute the following to get it up and running.
 
  **$ mongoimport.exe -v -d got_artists -c artists --jsonArray artists.json**
+ 
  **$ pip install -r requirements.txt **
+ 
  **$ python got_artists.py
  
  
 
 What has been implemented?
 --
+
 Simple search service, using Flask and MongoDB. I implemented a simple form so testing can be done easily.
