@@ -6,14 +6,14 @@ Implement a simple search service (complete with suitable test coverage) using a
 
 
 Requirements
---
+----
 
 MongoDB
 Python
 
 
 Setup & Installation
----
+----
 
 Clone the repository into a virtualenv and execute the following to get it up and running.
 
@@ -26,6 +26,6 @@ Clone the repository into a virtualenv and execute the following to get it up an
  
 
 What has been implemented?
---
+----
 
 Simple search service, using Flask and MongoDB. I implemented a simple form so testing can be done easily.
