@@ -9,7 +9,10 @@ Requirements
 ----
 
 MongoDB
+
 Python
+
+Flask
 
 
 Setup & Installation
